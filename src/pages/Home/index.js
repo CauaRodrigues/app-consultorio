@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { Link } from "react-router-dom";
-
+import Services from "../../components/Services";
 import StructurePage from '../../components/StructurePage';
 import './style.css';
 
@@ -9,36 +8,7 @@ const Home = () => {
     return(
         <StructurePage>
             
-            <div className="home-apresentacao">
-                <div className="limitar-container">
-                    <h1>Os melhores aparelhos dentários!</h1>
-                    <p>Confira abaixo todas as especialidades odontológicas que oferecemos!</p>
-
-                    <ul className="lista-servicos">
-
-                        <li>
-                            <img src="assets/dente.png" alt="logo" title="logo" />
-                            <p>Pré-avaliação</p>
-                        </li>
-                        
-                        <li>
-                            <img src="assets/dente.png" alt="logo" title="logo" />
-                            <p>Aparelhos Ortodonticos</p>
-                        </li>
-                        
-                        <li>
-                            <img src="assets/dente.png" alt="logo" title="logo" />
-                            <p>Exames de Imagem Digital</p>
-                        </li>
-
-                        <li>
-                            <img src="assets/dente.png" alt="logo" title="logo" />
-                            <p>Clareamentp Dental</p>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
+            <Services />
 
             <h2 className="titulo-sessao">Por que usar <b>aparelho dentários</b></h2>
 
