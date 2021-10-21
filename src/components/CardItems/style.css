@@ -8,16 +8,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin: 10px;
+    margin: 5px;
 }
 
-.card-items p, h3{
-    margin: 0;
-}
+.card-items p, h3{margin: 0;}
 
-.plano{
-    margin: 0 3px;
-}
+.plano{margin: 0 3px;}
 
 .nome-plano{
     font-size: 25px;
@@ -49,4 +45,48 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+.button-contratar::before{
+    transform: scaleX(0);
+    transform-origin: bottom left;
+}
+
+.button-contratar:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.button-contratar::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    inset: 0 0 0 0;
+    background: rgba(33, 177, 255, 0.8);
+    border-radius: 4px;
+    z-index: -1;
+    transition: transform .3s ease;
+}
+
+.button-contratar{
+    height: 35px;
+    width: 110px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 4px;
+    cursor: pointer;
+
+    border: 2px solid rgba(33, 177, 255, 0.8);
+    border-radius: 6px;
+}
+
 

@@ -1,0 +1,18 @@
+.container-map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.mapaIframe{
+    margin: 0 auto;
+    width: 80%;
+    height: 50vh;
+
+}
+
+.mapaIframe iframe{
+    width: 100%;
+    height: 100%;
+}

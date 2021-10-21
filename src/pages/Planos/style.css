@@ -6,13 +6,13 @@
 }
 
 .cards{
-    margin: 12px;
+    margin: 18px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     width: 70%;
-    margin-bottom: 88px;
+    margin-bottom: 93px;
 }
 

@@ -25,8 +25,8 @@ const CardItems = (props) => {
             </div>
             
 
-            <div className="container-button">
-                <button type="button" className="button-contratar">Contratar</button>
+            <div className="button-contratar">
+                Contratar
             </div>
 
         </section>
